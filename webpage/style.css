@@ -1,0 +1,59 @@
+html {
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	margin: 40px 0;
+}
+
+/* Y-AXIS VALUES */
+
+#y-axis-values {
+	float: left;
+	height: 500px;
+	width: 130px;
+	position: relative;
+}
+
+.y-axis-value {
+	position: absolute;
+	right: 0;
+}
+
+#y-axis-values .y-axis-value:last-child {
+  bottom: 0;
+}
+
+/* GRAPH AND BARS */
+
+#graph {
+	height: 500px;
+	width: intrinsic;
+	background-color: red;
+	margin: 0 auto;
+	clear: right;
+}
+
+.bar_wrapper {
+	width: 10px;
+	float: left;
+	height: 100%;
+}
+
+.bar {
+	background-color: white;
+	width: 100%;
+}
+
+/* CITY NAME */
+
+#city_name {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 525px;
+}
