@@ -2,9 +2,9 @@ require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
 
-File.open('partial.html', 'w') do |html|
+File.open('divs_for_search_results.html', 'w') do |html|
   cities_w_search_results = []
-  File.open("top_100_cities.txt", "r") do |txt|
+  File.open("search_results.txt", "r") do |txt|
     while (line = txt.gets)
         cities_w_search_results << [line.chomp, txt.gets.to_i]
     end
